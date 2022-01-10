@@ -1,0 +1,33 @@
+docker-compose.env.yml
+/vendor
+node_modules
+composer.phar
+
+.idea
+
+/system/user/config/config.local.php
+/system/user/cache/*
+/system/user/cache/current_version
+
+logs/
+
+.env.local
+
+# For those using Apache for local
+/public/.htaccess
+
+#Mac Files
+**/.DS_Store
+
+#Lando Setup
+.lando.yml
+
+#Lando Sym Links
+public/boot.php
+public/ee
+public/index.html
+public/user
+
+!.gitkeep
+
+NOTES.md
